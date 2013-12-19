@@ -1,6 +1,6 @@
 ---
 project: genx
-tagline: genx Lua+ffi binding (XML generation)
+tagline: genx ffi binding
 ---
 
 v1.0 | genx beta5 | LuaJIT 2
