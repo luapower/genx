@@ -7,7 +7,7 @@ v1.0 | genx beta5 | LuaJIT 2
 
 ## `local genx = require'genx'`
 
-A ffi binding of [genx], a library for generating well-formed canonical XML documents, written by Tim Bray.
+A ffi binding of [genx][genx lib], a library for generating well-formed canonical XML documents, written by Tim Bray.
 
 ## Features:
 
@@ -59,5 +59,5 @@ w:free()
 
 See the [genx manual] for more info.
 
-[genx]:        http://www.tbray.org/ongoing/When/200x/2004/02/20/GenxStatus
+[genx lib]:    http://www.tbray.org/ongoing/When/200x/2004/02/20/GenxStatus
 [genx manual]: http://www.tbray.org/ongoing/genx/docs/Guide.html
