@@ -1,6 +1,7 @@
 ---
-project: genx
-tagline: genx ffi binding
+project:     genx
+tagline:     genx ffi binding
+category:    Internet Formats
 ---
 
 v1.0 | genx beta5 | LuaJIT 2
