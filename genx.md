@@ -4,8 +4,6 @@ tagline:     genx ffi binding
 category:    Internet Formats
 ---
 
-v1.0 | genx beta5 | LuaJIT 2
-
 ## `local genx = require'genx'`
 
 A ffi binding of [genx][genx lib], a library for generating well-formed canonical XML documents, written by Tim Bray.
