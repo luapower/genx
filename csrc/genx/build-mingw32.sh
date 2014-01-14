@@ -1,1 +1,1 @@
-gcc genx.c charProps.c -shared -o ../../bin/mingw32/genx.dll -s -O3 -Wall -pedantic
+gcc $CFLAGS genx.c charProps.c -shared -o ../../bin/mingw32/genx.dll -Wall -pedantic
