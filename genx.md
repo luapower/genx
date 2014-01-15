@@ -1,7 +1,6 @@
 ---
 project:     genx
 tagline:     genx ffi binding
-category:    Internet Formats
 ---
 
 ## `local genx = require'genx'`
