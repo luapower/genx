@@ -1,6 +1,6 @@
 ---
-project:     genx
-tagline:     genx ffi binding
+project: genx
+tagline: XML writer
 ---
 
 ## `local genx = require'genx'`
