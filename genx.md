@@ -7,21 +7,21 @@ tagline: XML writer
 
 A ffi binding of [genx][genx lib], a library for generating well-formed canonical XML documents, written by Tim Bray.
 
-## Features:
+## Features
 
   * does all necessary XML escaping.
   * prevents generating text that isn't well-formed.
   * generates namespace prefixes.
   * produces Canonical XML, suitable for use with digital signatures.
 
-## Limitations:
+## Limitations
 
   * only UTF8 encoding supported
   * no empty element tags
   * no `<!DOCTYPE>` declarations (write it yourself before calling `w:start_doc()`)
   * no pretty-printing (add linebreaks and indentation yourself with `w:text()` where needed)
 
-## Example:
+## Example
 
 ~~~{.lua}
 local w = genx.new()
