@@ -1,0 +1,12 @@
+*
+!/bin/
+!/csrc/
+!/bin/mingw32/
+!/bin/linux32/
+!/media/
+
+!/genx*
+!/bin/mingw32/genx*
+!/bin/linux32/libgenx*
+!/csrc/genx/
+!/csrc/genx/**
