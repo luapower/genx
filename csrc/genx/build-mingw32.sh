@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc genx.c charProps.c -shared -o ../../bin/mingw32/genx.dll -Wall -pedantic
+P=mingw32 L="-s -static-libgcc" D=genx.dll A=genx.a ./build.sh

@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc genx.c charProps.c -shared -o ../../bin/linux32/libgenx.so -Wall -pedantic
+P=linux32 L="-s -static-libgcc" D=libgenx.so A=libgenx.a ./build.sh

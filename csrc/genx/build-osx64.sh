@@ -1,1 +1,2 @@
-gcc -arch x86_64 -O2 genx.c charProps.c -shared -install_name @loader_path/libgenx.dylib -o ../../bin/osx64/libgenx.dylib -Wall -pedantic
+P=osx64 C="-arch x86_64" L="-arch x86_64 -install_name @loader_path/libgenx.dylib" \
+	D=libgenx.dylib A=libgenx.a ./build.sh
