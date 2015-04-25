@@ -1,4 +1,7 @@
 --genx xml generator binding.
+
+if not ... then require'genx_demo' end
+
 local ffi = require'ffi'
 local C = ffi.load'genx'
 local M = {C = C}
@@ -35,7 +38,7 @@ end
 
 local senders = {} --{[genxWriter] = genxSender}
 
-function free_sender(w)
+local function free_sender(w)
 	local sender = senders[w]
 	if not sender then return end
 	sender.send:free()
@@ -138,8 +141,6 @@ ffi.metatype('genxWriter_rec', {__index = {
 	end,
 
 }, __gc = free})
-
-if not ... then require'genx_demo' end
 
 return M
 
