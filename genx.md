@@ -1,5 +1,4 @@
 ---
-project: genx
 tagline: XML writer
 ---
 
